@@ -1,0 +1,5 @@
+img {
+  width: 300px;
+  height: 270px;
+  object-fit: cover;  /* 写真の縦横比を保持してカットして表示します */
+}
