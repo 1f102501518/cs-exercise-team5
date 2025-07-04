@@ -1,4 +1,29 @@
 img {
-  width: 50%;     /* 親要素の幅の50% */
-  height: auto;   /* 高さは自動調整（縦横比保持） */
+  width: 300px;
+  height: 270px;
+  object-fit: cover;  /* 写真の縦横比を保持してカットして表示します */
+}
+table {
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+  white-space: nowrap;
+  margin-bottom: 1rem;
+}
+
+td {
+  display: inline-block;
+  width: 80%;
+  max-width: 250px;
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+
+td img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
 }
